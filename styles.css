@@ -419,6 +419,54 @@ a {
   color: var(--brand-deep);
 }
 
+.portfolio-links-label {
+  display: block;
+  margin: 20px 0 10px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: var(--brand-deep);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.portfolio-links {
+  display: flex;
+  gap: 12px;
+}
+
+.portfolio-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  background: #fafbfd;
+  color: var(--text);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+
+.portfolio-links a svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: var(--brand);
+  transition: color 0.2s;
+}
+
+.portfolio-links a:hover {
+  border-color: #bfd5f6;
+  background: var(--brand-soft);
+  color: var(--brand-deep);
+}
+
+.portfolio-links a:hover svg {
+  color: var(--brand-deep);
+}
+
 @media print {
   @page {
     margin: 12mm;
