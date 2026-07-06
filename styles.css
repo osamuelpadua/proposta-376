@@ -367,22 +367,33 @@ a {
 
   .topbar {
     grid-template-columns: 1fr;
-    gap: 16px;
-    padding: 24px;
-  }
-
-  .logo {
-    width: 148px;
-  }
-
-  .topbar-contact {
-    font-size: 0.84rem;
-    justify-items: center;
+    gap: 0;
+    padding: 0;
     text-align: center;
   }
 
+  .topbar-brand {
+    display: flex;
+    justify-content: center;
+    padding: 24px 24px 18px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .logo {
+    width: 160px;
+  }
+
+  .topbar-contact {
+    padding: 14px 24px;
+    font-size: 0.84rem;
+    justify-items: center;
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+  }
+
   .topbar-proposal {
-    text-align: left;
+    padding: 14px 24px;
+    text-align: center;
   }
 
   .content {
