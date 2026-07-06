@@ -1,13 +1,13 @@
 :root {
-  --bg: #f3f5f7;
-  --paper: #ffffff;
-  --text: #1d2733;
-  --muted: #687483;
-  --line: #dde3e8;
-  --brand: #356ec3;
-  --brand-deep: #244f94;
-  --brand-soft: #edf4fd;
-  --shadow: 0 20px 50px rgba(19, 31, 45, 0.06);
+  --bg: #0d1117;
+  --paper: #161b22;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --line: #21262d;
+  --brand: #58a6ff;
+  --brand-deep: #79c0ff;
+  --brand-soft: #1a2332;
+  --shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
 }
 
 * {
@@ -67,11 +67,11 @@ a {
 }
 
 .topbar-contact a {
-  color: #111921;
+  color: var(--text);
 }
 
 .topbar-contact .site-link {
-  color: #3168bd;
+  color: var(--brand);
   font-weight: 700;
   text-decoration: underline;
 }
@@ -83,7 +83,7 @@ a {
 .proposal-code,
 .proposal-date {
   margin: 0;
-  color: #111921;
+  color: var(--text);
   font-size: 0.72rem;
   line-height: 1.25;
   letter-spacing: 0.36em;
@@ -167,7 +167,7 @@ a {
 .meta div {
   padding: 16px 18px;
   border: 1px solid var(--line);
-  background: #fafbfd;
+  background: #1c2128;
 }
 
 .meta span,
@@ -192,7 +192,7 @@ a {
   margin-top: 22px;
   padding: 16px 18px;
   border-left: 3px solid var(--brand);
-  background: linear-gradient(180deg, #f8fbff 0%, var(--brand-soft) 100%);
+  background: linear-gradient(180deg, #1a2332 0%, #131d2b 100%);
   color: var(--muted);
   font-size: 0.92rem;
   line-height: 1.75;
@@ -242,8 +242,8 @@ a {
 .section-tag {
   margin-bottom: 0;
   padding: 8px 10px;
-  border: 1px solid #d8e5f8;
-  background: #f7faff;
+  border: 1px solid #2a3748;
+  background: #1a2332;
 }
 
 .block p {
@@ -292,7 +292,7 @@ a {
   margin: 0;
   padding: 26px 24px 24px;
   border: 1px solid var(--line);
-  background: #fcfdfe;
+  background: #1c2128;
 }
 
 .price-line {
@@ -308,7 +308,7 @@ a {
 .note-box {
   margin-top: 18px;
   padding: 16px 18px;
-  border: 1px solid #d6e5fb;
+  border: 1px solid #2a3748;
   background: var(--brand-soft);
   text-align: left;
 }
@@ -322,8 +322,8 @@ a {
 }
 
 .copy-box:hover {
-  border-color: #bfd5f6;
-  background: #e8f1fd;
+  border-color: #3a5070;
+  background: #1f2d3d;
 }
 
 .copy-box:focus-visible {
@@ -334,7 +334,7 @@ a {
 
 .copy-box.is-copied {
   border-color: var(--brand);
-  background: #e4effe;
+  background: #1a2d45;
 }
 
 .copy-hint {
@@ -442,7 +442,7 @@ a {
   gap: 8px;
   padding: 10px 16px;
   border: 1px solid var(--line);
-  background: #fafbfd;
+  background: #1c2128;
   color: var(--text);
   font-size: 0.85rem;
   text-decoration: none;
@@ -458,8 +458,8 @@ a {
 }
 
 .portfolio-links a:hover {
-  border-color: #bfd5f6;
-  background: var(--brand-soft);
+  border-color: #3a5070;
+  background: #1f2d3d;
   color: var(--brand-deep);
 }
 
@@ -473,7 +473,7 @@ a {
   }
 
   body {
-    background: #ffffff;
+    background: var(--bg);
   }
 
   .page {
